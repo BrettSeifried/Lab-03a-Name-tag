@@ -41,13 +41,13 @@ button2.addEventListener('click', () => {
 button3.addEventListener('click', () => { 
     document.getElementById('header').style.backgroundColor = 'red'; 
     document.getElementById('footer').style.backgroundColor = 'red'; 
-    console.log('test');
+    // console.log('test');
 });
 
 button4.addEventListener('click', () => { 
     document.getElementById('header').style.backgroundColor = 'pink'; 
     document.getElementById('footer').style.backgroundColor = 'pink'; 
-    console.log('test');
+    // console.log('test');
 });
 
 button5.addEventListener('click', () => { 
