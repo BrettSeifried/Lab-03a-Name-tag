@@ -1,6 +1,7 @@
 // import function and rab DOM elements
 const nameInput = document.getElementById('name');
-const button = document.getElementById('generate');
+// const button = document.getElementById('generate');
+const button = document.getElementById('submit');
 const firstName = document.getElementById('first-name');
 const proInput = document.getElementById('pronoun');
 const button2 = document.getElementById('pronoun-generate');
@@ -31,12 +32,14 @@ button.addEventListener('click', () => {
     // console.log('I am clicking!');
     let newName = nameInput.value;
     firstName.textContent = newName;
-});
-
-button2.addEventListener('click', () => {
     let newPro = proInput.value;
     proNoun.textContent = newPro;
 });
+
+// button2.addEventListener('click', () => {
+//     let newPro = proInput.value;
+//     proNoun.textContent = newPro;
+// });
 
 button3.addEventListener('click', () => { 
     document.getElementById('header').style.backgroundColor = 'red'; 
